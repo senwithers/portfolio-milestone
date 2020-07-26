@@ -1,0 +1,149 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width {
+    width:400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+}
+
+header h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 64px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+header p {
+    font-size: 48px;
+    padding-left: 50px;
+}
+
+header span {
+    color: teal;
+}
+
+nav {
+    float: right;
+    padding-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 25px;
+    color: teal;
+    text-transform: uppercase;
+}
+
+
+.computer {
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background: teal;
+    color: white;
+    height: 1050px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#about h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 24px;
+    width: 600px;
+    padding-left: 300px;
+}
+
+.portrait {
+    border: 5px solid white;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 850px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+#portfolio p {
+    font-size: 25px;
+}
+
+#portfolio img {
+    border: 1px solid #b7b7b7;
+}
+
+/***** CONTACT*****/
+
+#contact {
+    background: teal;
+    text-align: center;
+    height: 550px;
+    color: white;
+    padding-top: 200px;
+}
+
+#contact h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact ul li {
+    display:inline;
+    padding-right: 25px;
+}
+
+
+/*****FOOTER*****/
+
+footer {
+    background: teal;
+    text-align: center;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding-top: 50px;
+}
